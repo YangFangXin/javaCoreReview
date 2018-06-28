@@ -1,9 +1,9 @@
-package com.xyf;
+package com.xyf.demo;
 
 import java.util.List;
 
 /**
- * Created by bianlifeng on 2018/6/26.
+ * Created by xyf on 2018/6/26.
  * 玩家
  */
 public class Person {
@@ -34,7 +34,15 @@ public class Person {
         return list;
     }
 
+    public Person(Integer ID, String userName, List<String> list) {
+        this.ID = ID;
+        this.userName = userName;
+        this.list = list;
+    }
+
     public void setList(List<String> list) {
         this.list = list;
     }
+
+
 }
